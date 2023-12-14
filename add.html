@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ctgryfrm {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"] {
+            width: calc(100% - 10px);
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 3px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #001328;
+        }
+
+        form {
+            margin: 200px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hd" >
+        <nav>
+            <div class="container">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="assets/img/logo.png.webp" alt="">
+
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>Home</li>
+                            <li>About US</li>
+                            <li>Services</li>
+                            <li>Products</li>
+                            <li>Blog<i class="bi bi-chevron-down"></i>
+                                <ul class="d">
+                                    <li>Blog Home</li>
+                                    <li>Blog Single</li>
+                                </ul>
+                            </li>
+                            <li>Contact</li>
+                            <li>Drop-down<i class="bi bi-chevron-down"></i>
+                                <ul class="d">
+                                    <li>Elements</li>
+                                    <li>Products</li>
+                                    <li>Level2 <i class="bi bi-list"></i>
+                                        <ul class="d1">
+                                            <li>item1</li>
+                                            <li>item2</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <i class="bi bi-list"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <button onclick=""></button>
+    </div>
+    <section id="add">
+        <form class="ctgryfrm">
+            <label for="category-name">Image:</label>
+            <input type="file" id="image" name="category-name" required>
+            <label for="category-name">Name:</label>
+            <input type="text" id="name" name="category-name" required>
+            <label for="category-name">Category:</label>
+            <input type="text" id="category" name="category-name" required>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="top">
+                    <div class="blok1">
+                        <div class="head">Top Products</div>
+                        <div class="list">
+                            <ul>
+                                <li>Managed Website</li>
+                                <li>Managed Website</li>
+                                <li>Managed Website</li>
+                                <li>Managed Website</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="blok2">
+                        <div class="head">Top Products</div>
+                        <div class="login">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, et.</p>
+                            <div class="input">
+                                <input type="text" placeholder="enter email">
+                                <p><a href="#">Subscribe</a><i class="bi bi-arrow-right"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blok3">
+                        <div class="head">Top Products</div>
+                        <div class="img">
+                            <div class="item"><img src="assets/img/i1.jpg.webp" alt=""></div>
+                            <div class="item"><img src="assets/img/i1.jpg.webp" alt=""></div>
+                            <div class="item"><img src="assets/img/i1.jpg.webp" alt=""></div>
+                            <div class="item"><img src="assets/img/i1.jpg.webp" alt=""></div>
+                            <div class="item"><img src="assets/img/i1.jpg.webp" alt=""></div>
+                            <div class="item"><img src="assets/img/i2.jpg.webp" alt=""></div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="right">Copyright ©2023 All rights reserved | This template is made with by Colorlib
+                    </div>
+                    <div class="left"><i class="bi bi-facebook"></i><i class="bi bi-behance"></i><i
+                            class="bi bi-twitter"></i><i class="bi bi-dribbble"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="add.js"></script>
+    <script src="add.js"></script>
+
+
+</body>
+
+</html>
